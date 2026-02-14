@@ -8,69 +8,30 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   </head>
   <body>
-    <header>
-        <h1>Callum Greenhill</h1>
-        <p>Full Stack Developer | Web Design Enthusiast</p>
+    <nav class="navbar navbar-expand-lg bg-transparent">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">Callum Greenhill</a>
+        <div class="d-flex ms-auto">
+          <a class="btn btn-dark me-2" style="border: 2px solid white;" href="aboutMe.html">About Me</a>
+          <a class="btn btn-dark me-2" style="border: 2px solid white;" href="experience.html">Experience</a>
+          <a class="btn btn-dark" style="border: 2px solid white;" href="portfolio.html">Portfolio</a>
+        </div>
+      </div>
+    </nav>
+    <header class="text-center text-white" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+        <h1 class="display-1">Callum Greenhill</h1>
+        <p class="fs-3">Student at Dundee University</p>
+        <div class="d-flex justify-content-center align-items-center" style="margin-top: 20px; gap: 15px;">
+            <a href="https://github.com/CGreen268" target="_blank">
+                <img src="github-logo.webp" alt="GitHub Logo" style="width: 35px; height: 35px;">
+            </a>
+            <a href="mailto:callumgreenhill38@email.com">
+                <img src="gmail.png" alt="Gmail Icon" style="width: 40px; height: 40px;">
+            </a>
+            <img src="phone.png" alt="Phone Icon" style="width: 60px; height: 45px; cursor: pointer; margin-left: -15px;" onclick="document.getElementById('phoneNumber').style.display = document.getElementById('phoneNumber').style.display === 'none' ? 'block' : 'none';">
+        </div>
+        <p id="phoneNumber" class="text-white" style="display: none; margin-top: 15px;">+44 (0) 7359 008511</p>
     </header>
-    
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Passionate web developer with 3+ years of experience in building responsive and user-friendly web applications. Skilled in front-end and back-end development with a focus on modern technologies and best practices.</p>
-        </section>
-        
-        <section id="experience">
-            <h2>Experience</h2>
-            <article>
-                <h3>Senior Web Developer</h3>
-                <p><strong>Tech Solutions Inc.</strong> | 2022 - Present</p>
-                <ul>
-                    <li>Led development of 5+ client projects using React and Node.js</li>
-                    <li>Improved application performance by 40% through code optimization</li>
-                    <li>Mentored junior developers on best practices and coding standards</li>
-                </ul>
-            </article>
-            <article>
-                <h3>Junior Web Developer</h3>
-                <p><strong>Digital Innovations Ltd.</strong> | 2020 - 2022</p>
-                <ul>
-                    <li>Developed and maintained multiple client websites</li>
-                    <li>Collaborated with design team to implement responsive layouts</li>
-                    <li>Fixed bugs and optimized existing code</li>
-                </ul>
-            </article>
-        </section>
-        
-        <section id="education">
-            <h2>Education</h2>
-            <article>
-                <h3>Bachelor of Science in Computer Science</h3>
-                <p><strong>University of Technology</strong> | 2020</p>
-                <p>Specialized in Web Development and Software Engineering</p>
-            </article>
-        </section>
-        
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>Frontend: HTML, CSS, JavaScript, React, Vue.js</li>
-                <li>Backend: Node.js, Python, Express.js, MongoDB</li>
-                <li>Tools: Git, Docker, VS Code, Figma</li>
-                <li>Languages: English (Native), Spanish (Intermediate)</li>
-            </ul>
-        </section>
-        
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: callum.greenhill@email.com</p>
-            <p>Phone: +44 (0) 123 456 7890</p>
-            <p>LinkedIn: linkedin.com/in/callumgreenhill</p>
-            <p>GitHub: github.com/callumgreenhill</p>
-        </section>
-    </main>
-    
-    <footer>
-        <p>&copy; 2025 Callum Greenhill. All rights reserved.</p>
-    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
