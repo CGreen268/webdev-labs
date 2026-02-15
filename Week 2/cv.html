@@ -11,10 +11,15 @@
     <nav class="navbar navbar-expand-lg bg-transparent">
       <div class="container-fluid">
         <a class="navbar-brand text-white" href="#">Callum Greenhill</a>
-        <div class="d-flex ms-auto">
-          <a class="btn btn-dark me-2" style="border: 2px solid white;" href="aboutMe.html">About Me</a>
-          <a class="btn btn-dark me-2" style="border: 2px solid white;" href="experience.html">Experience</a>
-          <a class="btn btn-dark" style="border: 2px solid white;" href="portfolio.html">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="d-flex ms-auto">
+            <a class="btn btn-dark me-2" style="border: 2px solid white;" href="aboutMe.html">About Me</a>
+            <a class="btn btn-dark me-2" style="border: 2px solid white;" href="experience.html">Experience</a>
+            <a class="btn btn-dark" style="border: 2px solid white;" href="portfolio.html">Portfolio</a>
+          </div>
         </div>
       </div>
     </nav>
@@ -25,12 +30,12 @@
             <a href="https://github.com/CGreen268" target="_blank">
                 <img src="github-logo.webp" alt="GitHub Logo" style="width: 35px; height: 35px;">
             </a>
-            <a href="mailto:callumgreenhill38@email.com">
+            <a href="mailto:callumgreenhill@email.com">
                 <img src="gmail.png" alt="Gmail Icon" style="width: 40px; height: 40px;">
             </a>
             <img src="phone.png" alt="Phone Icon" style="width: 60px; height: 45px; cursor: pointer; margin-left: -15px;" onclick="document.getElementById('phoneNumber').style.display = document.getElementById('phoneNumber').style.display === 'none' ? 'block' : 'none';">
         </div>
-        <p id="phoneNumber" class="text-white" style="display: none; margin-top: 15px;">+44 (0) 7359 008511</p>
+        <p id="phoneNumber" class="text-white" style="display: none; margin-top: 15px;">+44 (0) 0123 456789</p>
     </header>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
