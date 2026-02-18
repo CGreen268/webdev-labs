@@ -32,3 +32,7 @@
     border-radius: 5px;
     text-align: center;
 }
+
+.about-content a {
+    color: #0d6efd;
+}
